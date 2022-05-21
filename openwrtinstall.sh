@@ -20,6 +20,11 @@ git clone  https://github.com/bigbugcc/OpenwrtApp
 git clone  https://github.com/destan19/OpenAppFilter
 git clone  https://github.com/xiaorouji/openwrt-passwall
 git clone  https://github.com/zzsj0928/luci-app-pushbot
+git clone  https://github.com/BG6QWJ/small-package/tree/main/luci-app-openclash
+git clone  https://github.com/BG6QWJ/small-package/tree/main/luci-app-passwall
+git clone  https://github.com/BG6QWJ/small-package/tree/main/luci-app-passwall2
+git clone  https://github.com/BG6QWJ/small-package/tree/main/shadowsocks-libev
+git clone  https://github.com/BG6QWJ/small-package/tree/main/shadowsocks-rust
 #替换默认主题
 rm -rf $lede_path/package/lean/luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git  $lede_path/package/lean/luci-theme-argon
